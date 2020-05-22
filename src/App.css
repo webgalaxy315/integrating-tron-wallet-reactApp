@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  margin: 0.5em;
+  margin-top: 10vh;
+  background-color: rgba(0, 0, 0, 0.575);
+  width: 35em;
+  height: 45em;
+  border-radius: 3em;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.082));
+  /* border: solid 0.8em rgba(255, 255, 255, 0.048); */
+  border: solid 0.9em rgba(143, 170, 243, 0.068);
+}
+.Logo {
+
+  height: 6em;
+  width: auto;
+  padding: 2em 5em 0em 5em ;
+
+  /* padding-right: 5em; */
+}
+
+
+.Stats h3 {
+  margin: 1.7em;
+  color: rgb(132, 160, 159);
+  color: rgb(165, 137, 154);
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+h1 {
+  margin: 1.4em;
+  color: rgb(117, 136, 196);
+
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: rgb(161, 160, 160);
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+footer {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.76);
+  border-radius: 0em 0em 1em 1em;
+  padding-top: 2em;
+}
